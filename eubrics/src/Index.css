@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+.Nav-bar{
+    display: flex;
+    background-color: #e43054;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    width: 100%;
+}
+
+.Nav-bar-heading{
+    font-size: 50px;
+}
+
+.btn-login{
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    margin: 0px 10px;
+    padding: 10px;   
+}
+
+.btn-register{
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    margin: 0px 10px;
+    padding: 10px;   
+}
+
+a{
+    text-decoration: none;
+}
+
+.Card{
+    display: inline-block;
+    margin: 50px;
+    box-sizing: border-box; 
+    border: 1px solid black;
+    height: 20vh;
+    width: 20%;
+    list-style: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px #e43054;
+}
+
+.Form{
+    display: flex;
+    height: 100vh;
+    background: black ;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+}
+
+.login-primary{
+    background-color: #e43054;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.login-secondary-register{
+    display: block;
+    background-color: turquoise;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    padding: 10px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.label{
+    margin: 10px 0px;
+}
+
+.input{
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+.sub-heading{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.todo-form{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.area-input{
+    padding:10px 200px;
+    margin: 0px 10px;
+}
+
+.btn-add{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #e43054;
+    color: #fff;
+}
+
+.task{
+    background: #e43054;
+    text-align: center;
+}
+
+.task-heading{
+    padding: 5px 5px;
+    list-style: none;
+}
+
+.btn-dlt{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;    
+}
